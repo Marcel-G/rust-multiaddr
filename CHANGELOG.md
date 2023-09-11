@@ -14,6 +14,8 @@
 - Make `/p2p` typesafe, i.e. have `Protocol::P2p` contain a `PeerId` instead of a `Multihash`.
   See [PR 83].
 
+- Add `WebRTC` (browser-to-browser) instance for `Multiaddr`.
+
 [multiformats/multiaddr discussion]: https://github.com/multiformats/multiaddr/pull/150#issuecomment-1468791586
 [PR 70]: https://github.com/multiformats/rust-multiaddr/pull/70
 [PR 77]: https://github.com/multiformats/rust-multiaddr/pull/77
